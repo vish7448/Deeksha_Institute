@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teacher Details</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        /* Header Style */
+        .header {
+            background-color: #2c3e50;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            font-size: 36px;
+            letter-spacing: 2px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-transform: uppercase;
+        }
+
+        /* Table Styling */
+        table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: center;
+            border: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #3498db;
+            color: white;
+        }
+
+        td img {
+            width: 105px;
+            height: 105px;
+            border-radius: 50%;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        tr:hover {
+            background-color: #ddd;
+        }
+
+        /* Back Button */
+        .back-btn {
+            display: block;
+            text-align: center;
+            margin: 20px;
+            padding: 10px 20px;
+            background-color: #3498db;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .back-btn:hover {
+            background-color: #2980b9;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <div class="header">
+        Teacher Details
+    </div>
+
+    <!-- Teacher Table -->
+    <table>
+        <thead>
+            <tr>
+                <th>Serial No.</th>
+                <th>Teacher Name</th>
+                <th>Photo</th>
+                <th>Teaching Subject</th>
+                <th>Timing</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Miss. Khushi</td>
+                <td><img src="/mam.png" alt="Teacher Photo"></td>
+                <td>DCA/PGDCA<br><p>Ist semester</p></td>
+                <td><p>8:00 AM - 10:00 AM<br>10:00 AM - 12:00 AM<br>4:00 PM - 6:00 AM<br>6:00 PM - 8:00 PM</p></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Miss. Madhu</td>
+                <td><img src="mam.png" alt="Teacher Photo"></td>
+                <td>DCA/PGDCA<br><p>IInd semester</p></td>
+                <td><p>8:00 AM - 10:00 AM<br>10:00 AM - 12:00 AM<br>4:00 PM - 6:00 AM<br>6:00 PM - 8:00 PM</p></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Mr. Patel</td>
+                <td><img src="mam.png" alt="Teacher Photo"></td>
+                <td>Not available 😊</td>
+                <td><p>10:00 AM - 12:00 AM<br>4:00 PM - 6:00 AM<br>6:00 PM - 8:00 PM</p></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Back Button -->
+    <a href="index.html" class="back-btn">Back to Home</a>
+
+</body>
+</html>

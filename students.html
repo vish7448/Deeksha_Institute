@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Records</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Header Style */
+        .header {
+            background-color: #2c3e50;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            font-size: 36px;
+            text-transform: uppercase;
+        }
+
+        /* Table Styling */
+        table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        th, td {
+            padding: 15px;
+            text-align: center;
+            border: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #2c3e50;
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        /* Footer Styling */
+        .footer {
+            background-color: #2c3e50;
+            color: #fff;
+            text-align: center;
+            padding: 15px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            table {
+                width: 90%;
+            }
+        }
+        .me{
+            color: green;
+            font-size: large;
+        }
+        .back-btn {
+            display: block;
+            text-align: center;
+            margin: 20px;
+            padding: 10px 20px;
+            background-color: #3498db;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <div class="header">
+        Student Records
+    </div>
+
+    <!-- Table with Student Records -->
+    <table>
+        <thead>
+            <tr>
+                <th>Sr. No.</th>
+                <th>Student Name</th>
+                <th>Course</th>
+                <th>Class/Batch</th>
+                <th>Remark</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>vipin</td>
+                <td>PGDCA</td>
+                <td>1st semester</td>
+                <td><p class="me">I am Host </p></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Sanand</td>
+                <td>DCA</td>
+                <td>1st semester</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Vimal Patel</td>
+                <td>DCA</td>
+                <td>1st semester</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>mayuri</td>
+                <td>DCA</td>
+                <td>1st sem</td>
+                <td>Pre Admission</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Aniket</td>
+                <td>DCA</td>
+                <td>1st sem</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Aakash</td>
+                <td>DCA</td>
+                <td>1st sem</td>
+                <td></td>
+                
+            </tr></tbody>
+    </table>
+
+    <!-- Footer -->
+    <div class="footer">
+        &copy; 2025 Deeksha Computer | All Rights Reserved
+    </div>
+
+    <a href="index.html" class="back-btn">Back to Home</a>
+
+</body>
+</html>
